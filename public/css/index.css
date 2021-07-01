@@ -1,0 +1,362 @@
+.bg-light {
+    background-color: #fff!important;
+    border-bottom: 4px solid #4d990c;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+a.active_page{
+    width: 100px;
+    height: 40px;
+    line-height: 110%;
+    background: #4d990c;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff!important;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.add_left-margin{
+    margin-left: 18%;
+}
+.body-content{
+    margin: 0;
+    padding: 0;
+}
+.part_div{
+    clear: both;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.part_div .bground{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background: url(../img/pexels-askar-abayev-6190858.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part_div .bground .opaque_plane{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background: rgba(10,10,10,.92);
+}
+.part_div .bground .opaque_plane h2{
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 240%;
+}
+.part_div .bground .opaque_plane h3{
+    color: #f1f1f1;
+}
+.part_div .bground .opaque_plane h4{
+    color: #f2f2f2;
+}
+.part_div .bground .opaque_plane p{
+    color: #f9f9f9;
+}
+.part_div .bground .opaque_plane ul.float_btns{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.part_div .bground .opaque_plane ul.float_btns li{
+   display: block;
+   float: left;
+   width: auto;
+   height: auto;
+   margin: 0 2% 0 0;
+   padding: 0;
+}
+.part_div .bground .opaque_plane ul.float_btns li .btn-primary{
+   border: 1px solid #f4f4f4;
+}
+.btn-theme{
+   color: #f0f0f0;
+   background: #4d990c;
+   border: 1px solid #f4f4f4;
+}
+.icon_size{
+    font-size: 240%;
+}
+.home .card{
+    border: none;
+
+}
+.card .card-header{
+    background: #666;
+    color:#f0f0f0;
+}
+.home .card .card-header h5{
+    font-weight: 400;
+    text-align: center;
+}
+.home .card .card-body{
+   margin: 0;
+   padding: 0;
+}
+.home .card .card-body img{
+    height: 200px;
+}
+.home .card .card-body .img_services{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.home .card .card-body ul li{
+    font-size: 90%;
+}
+.home .card .card-footer{
+    border: 1px solid #c0c0c0;
+}
+.home .card .card-footer .btn-theme{
+    background: #777;
+    margin-bottom: 5%;
+}
+
+.faces_span{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 1%;
+    padding: 0;
+    border-radius: 100%;
+    border: 3px solid #c0c0c0;
+}
+p.faces_p{
+}
+.faces{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+}
+/*About us styles*/
+.aboutus .row h3{
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 1% 2%;
+    color: #fff;
+    line-height: 150%;
+    background: #4d990c;
+    font-weight: bold;
+    opacity: .95;
+}
+.about_us div.about_block{
+	background: rgba(255,255,255,.65);
+	height: auto;
+	border: 3px solid #999;
+}
+.about_us div.about_block p{
+    padding: 1%;
+}
+.aboutus ul{
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.aboutus ul.ul_offers li{
+    border: none;
+    padding-left: 2%;
+    width: 100%;
+}
+ul.ul_offers{
+    list-style: circle;
+}
+ul.ul_offers li{
+    display: block;
+    width: 100%;
+    border: none;
+}
+ul.ul_offers li p{
+    padding-left: 2%;
+}
+ul.ul_offers li p span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #4d990c;
+    margin-right: 10px;
+}
+.aboutus .card{
+    margin-top: -10%;
+}
+.aboutus .card .card-header{
+    border: none;
+    background: #4d990c;
+}
+
+.aboutus ul.ul_cards{
+    margin-top: 2%;
+}
+.aboutus ul li{
+	display: block;
+	float: left;
+	width: 44%;
+	height: auto;
+	margin: 0 1% 1% 0;
+	padding: 0;
+    border: 3px solid #c4c4c4;
+}
+.aboutus ul li .card{
+	background: none;
+	border: none;
+}
+
+.aboutus ul li .card .card-body img{
+	width: 50%;
+	height: 100px;
+	margin: 16% 25% 1% 25%;
+	border-radius: 0%;
+    border: 4px solid #999;
+}
+.aboutus ul li .card .card-footer{
+	text-align: center;
+	font-size: 90%;
+	padding: 0;
+	background: none;
+	border-top: none;
+}
+.aboutus ul li .card .card-footer label{
+	font-weight: 400;
+    height: 20px;
+	opacity: .8;
+    margin: 0;
+    padding: 0;
+}
+.aboutus ul li .card .card-footer p{
+	margin: 0;
+    font-weight: 400;
+	opacity: .99;
+}
+.aboutus p{
+    clear: both;
+    width: 100%;
+}
+.aboutus h4,.aboutus h5{
+    font-weight: bold;
+    opacity: .94;
+}
+.aboutus section ul li{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: none;
+}
+ /*Services styles*/
+
+.nav-tabs li.nav-item a{
+    
+}
+.nav-tabs li.nav-item a:hover{
+    cursor: pointer;
+}
+.nav-tabs li.nav-item:nth(3)-child{
+    border-radius: 50px;
+}
+.tab_active{
+    border-right: 4px solid #fff;
+    background: #4d990c!important;
+    color: #fff!important;
+    border-radius: 0;
+    border: 2px solid #4d990c;
+}
+.nav-tabs .nav-link {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: .0rem;
+    border-top-right-radius: .0rem;
+    }
+ul.nav-tabs li{
+    border-left: 1px solid #c0c0c0!important;
+    border-top: 1px solid #c0c0c0!important;
+    border-bottom: 1px solid #c0c0c0!important;
+}
+ul.service_li{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+ul.service_li li{
+   display: block;
+   width: 100%;
+   height: 50px;
+   margin: 0;
+   padding: 0;
+   border-bottom: 1px solid #999;
+}
+.services .card .card-header{
+    background: #4d990c;
+    color:#f0f0f0;
+    opacity: .9;
+}
+.services ul.ul_service{
+    margin-left: 0;
+    padding-left: 0;
+}
+.services  ul.ul_service li{
+    clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+.services ul.ul_service li p{
+    margin-top: 1%;
+    padding-left: 0%;
+}
+.services ul.ul_service li p span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #4d990c;
+    margin-right: 10px;
+}
+/*Partners*/
+.partners .card{
+    margin: 10% auto;
+}
+.partners .card .card-body img{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Contact*/
+.contact .card .card-header{
+    background: #4d990c;
+    color:#f0f0f0;
+}
+footer{
+    background: #222;
+    color: #d9d9d9;
+    min-height: 360px;
+}
+footer hr{
+    color: #fff;
+    border: 0.5px solid#999;
+    margin: 0 1%;
+}
